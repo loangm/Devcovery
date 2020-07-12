@@ -9,7 +9,7 @@
           </base-section-heading>
 
           <v-responsive
-            class="mx-auto title font-weight-light"
+            class="px-3 mx-auto title font-weight-light"
             max-width="720"
           >
             Devcovery est une agence de création de sites Internet personnalisés qui fournit un service de qualité en fonction de vos besoins. 
@@ -28,8 +28,6 @@
             max-width="140">
           </v-layout>
         </v-container>
-
-        <div class="py-12"></div>
       </section>
 </template>
 

@@ -19,21 +19,25 @@
       >
         <v-col
           cols="12"
-          md="7"
         >
           <v-simple-table>
             <thead>
               <tr>
                 <th />
-                <th class="body-1 font-weight-bold text-center">
+
+                <th 
+                  class="body-1 font-weight-bold text-center px-4">
+                  Bronze
+                </th>
+
+                <th class="body-1 font-weight-bold text-center px-5">
                   Silver
                 </th>
-                <th class="body-1 font-weight-bold text-center">
+
+                <th class="body-1 font-weight-bold text-center px-6">
                   Gold
                 </th>
-                <th class="body-1 font-weight-bold text-center">
-                  Platine
-                </th>
+                
               </tr>
             </thead>
 
@@ -95,13 +99,13 @@
 
     data: () => ({
       features: [
-        ['Nombre de pages maximum', 2, 6, 'Infini'],
+        ['Nombre maximum de pages', 2, 6, 'Infini'],
         ['Durée de garantie (SAV)', '4 mois', '6 mois', '1 an'],
         ['Nom de domaine', true, true, true],
         ['Affichage dynamique', false, true, true],
         ['Contenu vidéo', false, true, true],
         ['Éléments programmables', false, false, true],
-        ['Price', '300 €', '600 €', '1000 €'],
+        ['Prix', '300 €', '600 €', '1000 €'],
       ],
     }),
   }

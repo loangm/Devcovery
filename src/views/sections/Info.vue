@@ -5,12 +5,13 @@
       class="center grey darken-4">
 
       <v-responsive
-        class="center mx-12"
-        max-width="1800">
+        class="center mx-12">
 
         <v-container
           fluid>
-          <v-row>
+          <v-row
+            align="center"
+            justify="center">
 
             <v-col
               align-self="center"

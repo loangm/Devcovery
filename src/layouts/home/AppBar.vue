@@ -9,7 +9,7 @@
     >
       <base-img
         :src="require('@/assets/logoab.png')"
-        class="mx-3 hidden-xs-only"
+        class="mx-2"
         contain
         max-width="52"
         width="100%"

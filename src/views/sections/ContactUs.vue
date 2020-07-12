@@ -6,7 +6,7 @@
       space="40"
     >
       <v-container>
-        <v-row justify="center">
+        <v-row align="center" justify="center">
           <v-col cols="10">
             <base-title
               :space="$vuetify.breakpoint.mdAndUp ? 0 : 4"
@@ -24,15 +24,22 @@
             cols="12"
             md="2"
           >
+
             <base-btn
+              class="font-weight-bold"
               :block="$vuetify.breakpoint.smAndDown"
               color="white"
+              light
               href="mailto:help.devcovery@gmail.com?subject=Question%20à%20propos%20de%20Devcovery"
               large
               outlined
-              target="_blank"
-            >
-              Envoyer un mail
+              target="_blank">
+              
+              Nous écrire
+
+              <v-icon right>
+                mdi-email
+              </v-icon>
             </base-btn>
           </v-col>
         </v-row>

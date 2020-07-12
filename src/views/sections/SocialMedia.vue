@@ -2,7 +2,7 @@
   <v-theme-provider dark>
     <base-section
       id="social"
-      class="accent text-center"
+      class="accent text-center py-12"
       space="56"
     >
       <base-icon class="mb-8">
@@ -12,6 +12,7 @@
       <base-section-heading
         color="transparent"
         title="Instagram"
+        class="mx-10"
       >
         Restez informé sur nos dernières actualités. Nous postons régulièrement des petits conseils et des astuces pour vous aider à réfléchir sur la conception de votre site.
       </base-section-heading>
