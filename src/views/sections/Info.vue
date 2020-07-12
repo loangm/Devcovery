@@ -10,8 +10,7 @@
 
         <v-container
           fluid>
-          <v-row
-          class="mx-12">
+          <v-row>
 
             <v-col
               align-self="center"

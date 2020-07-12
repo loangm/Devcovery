@@ -7,6 +7,7 @@
         :src="require('@/assets/logoaw.png')"
         contain
         max-width="200"
+        min-width="128"
         min-height="100"
         width="100%"
       />
